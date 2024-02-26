@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="code.js"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <!-- Rating section start -->
+
+  <main class="ratingCard card">
+    <!-- star icon -->
+    <img src="images/icon-star.svg" alt="Star-Icon" class="ratingCard--sarImage">
+    <div class="ratingCard--textCotnainer">
+      <!-- card title -->
+      <h2 class="textCotnainer--title">How did we do?</h2>
+      <!-- card description -->
+      <p class="textCotnainer--paragraph">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </div>
+    <!-- rating form -->
+    <form class="ratingCard--form">
+      <fieldset class="form--fieldsetInputs">
+        <!-- rating 1 -->
+        <input type="radio" name="rating" id="rating1" value="1" class="fieldsetInputs--input">
+        <label for="rating1" class="fieldsetInputs--label">1</label>
+        <!-- rating 2 -->
+        <input type="radio" name="rating" id="rating2" value="2" class="fieldsetInputs--input">
+        <label for="rating2" class="fieldsetInputs--label">2</label>
+        <!-- rating 3 -->
+        <input type="radio" name="rating" id="rating3" value="3" class="fieldsetInputs--input">
+        <label for="rating3" class="fieldsetInputs--label">3</label>
+        <!-- rating 4 -->
+        <input type="radio" name="rating" id="rating4" value="4" class="fieldsetInputs--input">
+        <label for="rating4" class="fieldsetInputs--label">4</label>
+        <!-- rating 5 -->
+        <input type="radio" name="rating" id="rating5" value="5" class="fieldsetInputs--input">
+        <label for="rating5" class="fieldsetInputs--label">5</label>
+      </fieldset>
+      <!-- button -->
+      <button type="submit" class="form--submit">Submit</button>
+    </form>
+  </main>
+
+  <!-- Rating section end -->
+
+  <!-- Thank you section start -->
+
+  <section class="submitCard card">
+    <img src="images/illustration-thank-you.svg" alt="Submit-Illustration" class="submitCard--illustration">
+    <div class="submitCard--ratingResult">
+      <p class="ratingResult--paragraph">You selected <span class="ratingResult--span"></span> out of 5</p>
+    </div>
+    <h2 class="submitCard--title">Thank you!</h2>
+    <p class="submitCard--paragraph">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </section>
+
+  <!-- Thank you section end -->
+
+  
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Matías Gaitán</a>.
+  </footer>
+</body>
+</html>
