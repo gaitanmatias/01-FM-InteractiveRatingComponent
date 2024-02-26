@@ -1,0 +1,31 @@
+/* ----- IMPORT & VARIABLES ----- */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* fonts */
+  --font-primary: "Overpass", sans-serif;
+  --font-bold: 700;
+  --font-medium: 400;
+
+  /* colors */
+  --principal: hsl(25, 97%, 53%);
+  --secondary: hsl(0, 0%, 100%);
+  --text_hover: hsl(217, 12%, 63%);
+  --elements-bg: hsl(216, 12%, 54%);
+  --card-bg: hsl(213, 19%, 18%);
+  --body-bg: hsl(216, 12%, 8%);
+
+}
+
+/* ----- RESETS ----- */
+*{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+
+/* ----- FOOTER ----- */
+.footer { font-size: 11px; text-align: center; }
+.footer a { color: hsl(228, 45%, 44%); }
